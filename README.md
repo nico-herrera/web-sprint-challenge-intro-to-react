@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a js library that excels in rendering user interfaces. It solves all the issues that comes with a complex and very "clicky" app that uses a lot of data, without bogging down the DOM.
+
 1. Describe component state.
+
+component state uses a callback function and a value that intends on changing. In a situation you wanted to use Dark mode or Light mode, the value would be color of the screen and cb function would change the value.
 
 1. Describe props.
 
+props is like a vessel of data you use to access state in other components.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+side effects are anything that impacts something outside of the scope of the executed function. You can consdider grabbing data from an API and timers as side effects. To sync effects in a component you need to use useEffect() and put state or props in the useEffect function so that it renders after the UI is loaded.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
